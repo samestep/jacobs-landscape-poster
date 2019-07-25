@@ -1,0 +1,17 @@
+*.aux
+*.bbl
+*.bib
+*.blg
+*.fdb_latexmk
+*.fls
+*.jpg
+*.log
+*.nav
+*.out
+*.pdf
+*.png
+*.snm
+*.sty
+*.tex
+*.toc
+*.zip

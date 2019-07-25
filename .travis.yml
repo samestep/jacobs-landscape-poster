@@ -1,0 +1,15 @@
+language: minimal
+branches:
+  only:
+    - master
+addons:
+  apt:
+    packages:
+      - latexmk
+      - texlive-full
+script: ./compile.sh
+before_deploy: rm .gitignore
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
